@@ -122,8 +122,8 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.c.drawString(150, 465, "Assinatura")
 
 
-        self.c.rect(40, 700, 260, 2, fill=True, stroke=False)
-        self.c.rect(40, 530, 260, 2, fill=True, stroke=False)
+        self.c.rect(40, 700, 280, 2, fill=True, stroke=False)
+        self.c.rect(40, 530, 280, 2, fill=True, stroke=False)
 
         self.c.showPage()
         self.c.save()
