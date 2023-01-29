@@ -2,18 +2,20 @@
 
 ## :memo: Descrição
 Projeto para estudo e tambem para automatizar as tarefas do dia a dia na emissão de pedidos para recargas de cartucho,
-o programa recebe as entradas do usuario e adiciona as informaçoes em determinadas variaveis, apos isso gera um arquivo pdf com as informaçoes para impressão
+o programa recebe as entradas do usuario e adiciona as informaçoes em determinadas variaveis, apos isso gera um arquivo pdf com as informaçoes para impressão.
 
 ## :books: Funcionalidades
 * <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
+* O programa gera pedidos de recarga de cartucho, gera um pdf para impressao que podem ser impressos em impressoras termicas.
+* arquiva os pedidos com uma uuid unica de cada pedido, alem de gravar no pedido a data e a hora do pedido, neste caso quem utilizar o programa ira ter mais controle sobre os pedidos gerados.
 
 ## :wrench: Tecnologias utilizadas
 * Nesse projeto utilizei as bibliotecas do PyQt5, webbrowser, datetime, secrets, reportlab
-* O Designe utilizei o Qt Designer
+* O Designe utilizei o Qt Designer.
 
 ## :soon: Implementação futura
 * O que será implementado na próxima sprint?
-* Futuramente irei implementar um banco de dados para um controle maior
+* Futuramente irei implementar um banco de dados para um controle maior.
 
 ## :handshake: Colaboradores
 <table>
@@ -30,3 +32,4 @@ o programa recebe as entradas do usuario e adiciona as informaçoes em determina
 </table>
 
 ## :dart: Status do projeto
+* Em Andamento
